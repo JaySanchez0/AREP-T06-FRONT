@@ -3,7 +3,7 @@ import CreditItem from './CreditItem';
 
 export default function CreditView(){
     const [list,setList] = React.useState([]);
-
+    document.title = "Mi Banco | Registro de pagos";
     React.useEffect(()=>{
         console.log("Entra efecto");
         setList([{numeroFactura:'AX4560100B211',montoPago:'900000',fechaPago:new Date()},
@@ -18,7 +18,7 @@ export default function CreditView(){
 
     return (<div>
         <div style={{width:'100%',height:'50px',background:'orange',fontWeight:'bold',textAlign:'center',fontSize:'30px',color:'white'}}>
-            My Bank
+            Mi Banco | Registro de pagos
         </div>
         <div style={{width:'100%',height:'calc(100% - 50px )'}}>
             <center style={{height:'100%'}}>
