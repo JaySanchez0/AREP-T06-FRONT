@@ -30,7 +30,7 @@ Aqui podemos consultar el contenido
 
 Ya despues de esto podemos consultar nuestra aplicacion
 
-![ver](img/s3/build.PNG)
+![ver](img/s3/deploy.PNG)
 
 
 ### Despliegue en produccion con amplify:
